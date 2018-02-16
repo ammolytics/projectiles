@@ -1,4 +1,4 @@
-[![pipeline status](https://gitlab.com/ammolytics/projectiles/badges/develop/pipeline.svg)](https://gitlab.com/ammolytics/projectiles/commits/develop)
+[![Build Status](https://travis-ci.org/ammolytics/projectiles.svg?branch=develop)](https://travis-ci.org/ammolytics/projectiles)
 
 # Open Source Projectile Dataset
 
