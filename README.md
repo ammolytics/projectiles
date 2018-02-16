@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/ammolytics/projectiles.svg?branch=develop)](https://travis-ci.org/ammolytics/projectiles)
 
 # Open Source Projectile Dataset
 
