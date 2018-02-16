@@ -1,4 +1,3 @@
-[![pipeline status](https://gitlab.com/ammolytics/projectiles/badges/develop/pipeline.svg)](https://gitlab.com/ammolytics/projectiles/commits/develop)
 
 # Open Source Projectile Dataset
 
