@@ -1,5 +1,5 @@
 {
-  "name": "@ammolytics/projectiles",
+  "name": "projectiles",
   "version": "1.0.0",
   "description": "Open source dataset of all known ammunition projectiles (bullets).",
   "main": "index.js",
