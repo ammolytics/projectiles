@@ -10,6 +10,8 @@ cache:
   directories:
   - node_modules/
 deploy:
+  provider: npm
+  email: "erichiggins@gmail.com"
   on:
     tags: true
     branch: master
