@@ -1,5 +1,5 @@
 {
-  "name": "projectiles",
+  "name": "@ammolytics/projectiles",
   "version": "1.0.0",
   "description": "Open source dataset of all known ammunition projectiles (bullets).",
   "main": "index.js",
@@ -9,6 +9,9 @@
   "repository": "git@github.com:ammolytics/projectiles.git",
   "author": "Eric Higgins <erichiggins@gmail.com>",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "devDependencies": {
     "test": "^0.6.0"
   }

@@ -1,13 +1,17 @@
 language: node_js
 sudo: false
 node_js:
-  - "lts/*"
+- lts/*
 before_script:
-  - yarn install
+- yarn install
 script:
-  - yarn test
-
-# This folder is cached between builds
+- yarn test
 cache:
   directories:
   - node_modules/
+deploy:
+  on:
+    tags: true
+    branch: master
+  api_key:
+    secure: Mg0ZlBUkOmSsVZJeZApbKRYaVgbjNcYBUk27hCWfldduxtgMVNElwgipoC2Eii0alM7eVFnc8BmfuDMlymvqNaqpdgHvu+PhsfuE2+8l87VJy+G/gCJHbf9NeH77wqqxwzvoXJmj9EeJahM8z47MQQBvOIPlV1QmARA8IIJVyXMplxZ4DPZ8ih+D0CuQ/bMubmMvNhLJTWcXh8h3BUQT1b8rwJcganBeZwGKpdDgC6fg1kFIwzH1xOJiiTxQ/9SDV343ebLY1NqlsfWI/MnAdHBJcd036DOxBqbFwxLE78VX54ktW7PZ7sW9L03sGRhb5tafCmYj7kHSgevCBsKipw1Bckp66kV67xHzqZ8is18gR16UyjuObMRd6QXj4d97WtycAVGDUbyedfNRh7VCFEWnGCuxwSzYpYDKx3/UAShocrBdGrJWgY5NVn9RRFMgj1RPTI3wxCQrL3jnGR8VufRzwdE4w1SUNOI96ntqRvr8Z5gr9isIvr/PvdSOtTm6c6uXeyLbejYJy9zRmyCloZkZRIEhPuRUv4c+Nz0BsWnf2V8Ua0ye13i2pwDlG+J7nBbYsjPff19f1ucth/Ly0BXtiW2GExYGi66+K3Us6doJIjccsE1qBV6aqqN+fDhEn4pBlCOqekGzFvHDNXnz4YlfWvAzSaR4xybUEy8J25o=
